@@ -4,8 +4,30 @@
 }
 
 
-/* ----------------------------------  Header*/
+/* ----------------------------------------------  Header*/
+
+/* ---------------------  Header Info*/
+
 .oxon-info-on-top {
     text-align: center;
 }
-/* ----------------------------------  /.Header*/
+
+/* ---------------------  /.Header Info*/
+
+/* ---------------------  Header Navigation*/
+
+/* ======Google inspect========= */
+
+@media screen and (min-width: 575px) {
+    .navbar-nav {
+        margin: 0 auto;
+    }
+
+    .social-media-menu {
+        display: none;
+    }
+}
+
+
+/* ---------------------  /.Header Navigation*/
+/* --------------------------------------------  /.Header*/
