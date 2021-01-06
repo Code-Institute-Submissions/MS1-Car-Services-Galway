@@ -43,6 +43,7 @@ a {
     text-align: center;
     line-height: 30px;
     padding-top: 4px;
+    margin: 0;
 }
 
 .social-media-icon {
@@ -78,3 +79,10 @@ a {
 
 
 /* --------------------------------------------  /.Header*/
+
+/* --------------------------------------------  Animation section*/
+
+.animation {
+    height: 700px;
+    background-color: aqua;
+}
