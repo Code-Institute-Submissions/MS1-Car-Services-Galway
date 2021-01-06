@@ -1,24 +1,62 @@
+/* ----------------------------------------------  Global*/
+
 * {
     padding: 0;
     margin: 0;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/* ----------------------------------------------  \.Global*/
+
 
 /* ----------------------------------------------  Header*/
 
-/* ---------------------  Header Info*/
-
 .oxon-info-on-top {
+    margin-top: 5px;
     text-align: center;
+    line-height: 30px;
 }
 
-/* ---------------------  /.Header Info*/
+.social-media-icon {
+    font-size: 30px;
+    margin-right: 20px;
+}
 
-/* ---------------------  Header Navigation*/
 
-/* ======Google inspect========= */
 
-@media screen and (min-width: 575px) {
+
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+@media screen and (min-width: 575px) { /* 575*/
     .navbar-nav {
         margin: 0 auto;
     }
@@ -29,5 +67,4 @@
 }
 
 
-/* ---------------------  /.Header Navigation*/
 /* --------------------------------------------  /.Header*/
