@@ -158,6 +158,8 @@ h1 {
     margin-right: 10px;
 }
 
-
+.our-service-section-two, .service-image {
+    height: 250px;
+}
 
 /* --------------------------------------------  \.Our Services*/
