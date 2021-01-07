@@ -37,6 +37,15 @@ a {
 /* ----------------------------------------------  \.Global*/
 
 
+/* ----------------------------------------------  Colours*/
+
+#our-services {
+    background-color: aquamarine;
+}
+
+/* ----------------------------------------------  \.Colours*/
+
+
 /* ----------------------------------------------  Header*/
 
 .oxon-info-on-top {
@@ -83,7 +92,7 @@ a {
 /* --------------------------------------------  Animation section*/
 
 .animation {
-    height: 700px;
+    height: 400px;
     background-color: aqua;
     position: relative;
 }
