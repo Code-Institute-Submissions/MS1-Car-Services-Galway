@@ -40,7 +40,19 @@ a {
 /* ----------------------------------------------  Colours*/
 
 #our-services {
-    background-color: aquamarine;
+    background-color: #f8f9fa;
+}
+
+#about-us {
+    background-color: #f5f5f5;
+}
+
+#testimonials {
+    background-color: #f8f9fa;
+}
+
+#contact-us {
+    background-color: #f5f5f5;
 }
 
 /* ----------------------------------------------  \.Colours*/
@@ -74,6 +86,13 @@ a {
     margin-left: 10px;;
 }
 
+/* Chrome inspect */
+.navbar .social-media-menu {
+    position: absolute;
+    right: 0;
+    top: 5px;
+} 
+
 @media screen and (min-width: 575px) { /* 575*/
     .navbar-nav {
         margin: 0 auto;
@@ -93,7 +112,7 @@ a {
 
 .animation {
     height: 400px;
-    background-color: aqua;
+    background-color: rgb(38, 85, 85);
     position: relative;
 }
 
