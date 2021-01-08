@@ -40,8 +40,13 @@ h3 {
 }
 
 h1 {
-    margin-top: 45px;
+    margin-top: 25px;
     margin-bottom: 30px;;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .content-to-center {
@@ -153,6 +158,10 @@ h1 {
     margin-bottom: 45px;
 }
 
+.service-cell {
+    height: 155px;
+}
+
 .our-service-section, .service-icon {
     font-size: 70px;
     float: left;
@@ -161,6 +170,7 @@ h1 {
 .service-icon {
     margin-left: 10px;
     margin-right: 10px;
+    height: 100%;
     transform: translateY(-20px);
 }
 
@@ -173,9 +183,11 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
-    min-height: 150px;
-    width: auto;
+    min-height: 350px;
+    max-width: 450px;
+    position: relative;
+    left: 50%;                      /* <---- To justify background into midle of div (https://www.w3schools.com/css/css3_2dtransforms.asp) */
+    transform: translateX(-50%);    /* <---- To justify background into midle of div */
 }
 
 /* --------------------------------------------  \.Our Services*/
