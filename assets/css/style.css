@@ -54,7 +54,7 @@ h1 {
 /* ----------------------------------------------  Colours*/
 
 #our-services {
-    background-color: #f8f9fa;
+    background-color: #5f9cd8;
 }
 
 #about-us {
@@ -158,8 +158,8 @@ h1 {
     margin-right: 10px;
 }
 
-.our-service-section-two, .service-image {
-    height: 250px;
+.service-image {
+    width: 300px;
 }
 
 /* --------------------------------------------  \.Our Services*/
