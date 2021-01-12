@@ -98,7 +98,7 @@
                             <h2><span class="old-price">&#8364;159</span> &#8364;99</h2>
                         </div>
                     </div>
-                    <p><strong>This service includes an oil and air filter change plus a top-up of all fluids under the
+                    <p><strong class="extra-text">This service includes an oil and air filter change plus a top-up of all fluids under the
                             bonnet.</strong></p>
                 </div>
             </div>
@@ -368,14 +368,22 @@
             </div>
         </div>
         <div class="row content-to-center">
-            <div class="col-lg-6 col-md-12 offset-lg-6 margin-bottom">
-                <h2>Contacts</h2>
-                <form>
-                    <input type="text">
+            <div class="col-lg-6 col-md-12 margin-bottom">
+                <h2>Contact</h2>
+                <form class="contact-form" action="" method="">
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                    <label for="phone">Phone:</label>
+                    <input type="text" name="phone" id="phone" placeholder="Phone" required>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" placeholder="Your Message" rows="5" cols="40"></textarea>
                     <input type="submit" value="Submit">
                 </form>
             </div>
             <div class="col-lg-6 col-md-12 margin-bottom">
+                <h2>Contact info</h2>
                 <p>Unit 9, Liosban Industrial Estate, Tuam Road, Galway</p>
                 <p>+353 85 208 55 59</p>
                 <p>Monday-Friday: 9:00 – 18:00
