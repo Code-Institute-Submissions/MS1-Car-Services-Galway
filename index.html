@@ -19,7 +19,7 @@
 
 <body>
     <!-- (g-0) https://getbootstrap.com/docs/5.0/layout/gutters/#no-gutters -->
-    <header class="container-fluid g-0">
+    <header class="container-fluid g-0 sticky-container">
         <div class="row oxon-info-on-top">
             <div class="col-sm-4 col-md-4 col-lg-3 col-12">
                 <!--https://bitly.com/ website used to create shorter link for google maps-->
@@ -50,19 +50,19 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul class="navbar-nav me-auto mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Our Services</a>
+                        <a class="nav-link" href="#our-services">Our Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#about-us">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonials</a>
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#contact-us">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -252,8 +252,8 @@
                 <h1>ABOUT US</h1>
             </div>
         </div>
-        <div class="row about-us-content">
-            <div class="col-12 margin-bottom">
+        <div class="row about-us-content content-to-center">
+            <div class="col-12 margin-bottom g-0">
                 <div class="about-us-cell">
                     <div class="about-us-image">
                         <img src="assets/img/sm1.jpg" class="rounded-circle mr-3" height="100" alt="Hector Linares">
@@ -266,12 +266,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 margin-bottom">
+            <div class="col-12 margin-bottom g-0">
                 <div class="about-us-cell">
-                    <div id="about-us-image">
+                    <div class="about-us-image float-img-right">
                         <img src="assets/img/sm1.jpg" class="rounded-circle mr-3" height="100" alt="Hector Linares">
                     </div>
-                    <div class="about-us-image-text">
+                    <div class="about-us-image-text image-text-float-right">
                         <h3>URIEL ALARCON</h3>
                         <p><small>Technician</small></p>
                         <p>Uriel is one of the youngest techs at Hector’s auto repair, but he’s already been here for
@@ -279,7 +279,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 margin-bottom">
+            <div class="col-12 margin-bottom g-0">
                 <div class="about-us-cell">
                     <div class="about-us-image">
                         <img src="assets/img/sm1.jpg" class="rounded-circle mr-3" height="100" alt="Hector Linares">
@@ -400,7 +400,25 @@
     <footer class="container-fluid">
         <div class="row content-to-center">
             <div class="col-12">
-                Footer
+                <div>
+                <ul class="navbar-nav me-auto mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#our-services">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-us">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
             </div>
         </div>
     </footer>
