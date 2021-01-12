@@ -317,6 +317,11 @@ h2 {
     margin-bottom: 15px;
 }
 
+.margin-text {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 @media screen and (max-width: 575px) {
     .map {
         width: 90%;
