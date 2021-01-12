@@ -254,3 +254,37 @@ h2 {
 }
 
 /* --------------------------------------------  \.About US*/
+
+/* --------------------------------------------  Testimonials*/
+/* --------------------------------------------  \.Testimonials*/
+
+/* --------------------------------------------  Contact Us*/
+/* --------------------------------------------  \.Contact Us*/
+
+/* --------------------------------------------  Footer*/
+
+.footer {
+    width: 100%;
+}
+
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.footer-nav-item {
+    display: inline-block;
+}
+
+li.footer-nav-item {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 635px) {
+    .footer-nav-item {
+        display: block;
+    }
+}
+
+/* --------------------------------------------  \.Footer*/
