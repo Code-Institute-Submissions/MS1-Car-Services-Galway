@@ -1,5 +1,3 @@
-/* ----------------------------------------------  Global*/
-
 * {
     padding: 0;
     margin: 0;
@@ -53,8 +51,8 @@ h2 {
     text-align: center;
 }
 
-.float-right {
-    float: right;
+.margin-bottom {
+    margin-bottom: 40px;
 }
 
 /* ----------------------------------------------  \.Global*/
@@ -190,8 +188,8 @@ h2 {
     min-height: 350px;
     max-width: 450px;
     position: relative;
-    left: 50%;                      /* <---- To justify background into midle of div (https://www.w3schools.com/css/css3_2dtransforms.asp) */
-    transform: translateX(-50%);    /* <---- To justify background into midle of div */
+    left: 50%;                      /* ---- To justify background into midle of div (https://www.w3schools.com/css/css3_2dtransforms.asp) */
+    transform: translateX(-50%);    /* ---- To justify background into midle of div */
 }
 
 /* --------------------------------------------  \.Our Services*/
@@ -199,7 +197,8 @@ h2 {
 /* --------------------------------------------  About US*/
 
 .about-us-cell {
-    width: 500px;
+    min-width: 320px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -211,7 +210,18 @@ h2 {
 .about-us-image-text {
     width: 70%;
     float: left;
-    text-align: left;
+}
+
+@media screen and (max-width: 575px) {
+    .about-us-image {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .about-us-image-text {
+        text-align: center !important;
+        width: 100% !important;
+    }
 }
 
 /* --------------------------------------------  \.About US*/
