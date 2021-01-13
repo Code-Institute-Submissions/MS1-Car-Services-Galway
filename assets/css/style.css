@@ -240,7 +240,31 @@ h2 {
 }
 
 .main-service-img1 {
-    background: url("../img/engine.jpg");
+    background: url("../img/danvolks99.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    max-width: 450px;
+    position: relative;
+    left: 50%;                      /* ---- To justify background into midle of div (https://www.w3schools.com/css/css3_2dtransforms.asp) */
+    transform: translateX(-50%);    /* ---- To justify background into midle of div */
+}
+
+.main-service-img2 {
+    background: url("../img/Mimzy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    max-width: 450px;
+    position: relative;
+    left: 50%;                      /* ---- To justify background into midle of div (https://www.w3schools.com/css/css3_2dtransforms.asp) */
+    transform: translateX(-50%);    /* ---- To justify background into midle of div */
+}
+
+.main-service-img3 {
+    background: url("../img/JensPRaak.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
