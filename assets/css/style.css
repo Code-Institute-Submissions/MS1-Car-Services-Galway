@@ -82,13 +82,14 @@ h2 {
 /* ----------------------------------------------  Header*/
 .logo {
     position: absolute;
-    left: 5;
-    top: 5;
+    left: 0;
+    top: 0;
     z-index: 1;
 }
 .logo img{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
+    
 }
 
 .oxon-info-on-top {
