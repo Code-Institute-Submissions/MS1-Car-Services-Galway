@@ -201,6 +201,15 @@ h2 {
     }
 }
 
+@media screen and (max-width: 885px) {
+    .welcome-section {
+        width: 90%;
+    }
+
+    .welcome-text p {
+        font-size: 16px;
+    }
+}
 
 
 /* -------------------------------------------- \.Animation section*/
