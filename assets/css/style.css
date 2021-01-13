@@ -179,6 +179,15 @@ h2 {
     margin-top: 40px;
 }
 
+.welcome-section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.welcome-text p{
+    font-size: 18px;
+}
+
 @media screen and (max-width: 1024px) {
     .offer-table {
         height: 275px;
@@ -191,6 +200,8 @@ h2 {
         display: none;
     }
 }
+
+
 
 /* -------------------------------------------- \.Animation section*/
 
