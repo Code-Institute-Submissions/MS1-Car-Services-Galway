@@ -80,6 +80,16 @@ h2 {
 
 
 /* ----------------------------------------------  Header*/
+.logo {
+    position: absolute;
+    left: 5;
+    top: 5;
+    z-index: 1;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+}
 
 .oxon-info-on-top {
     text-align: center;
