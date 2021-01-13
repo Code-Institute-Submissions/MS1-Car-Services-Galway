@@ -374,8 +374,38 @@ h2 {
 }
 
 /* --------------------------------------------  \.About US*/
-
 /* --------------------------------------------  Testimonials*/
+
+.testimonials-img-1,
+.testimonials-img-2,
+.testimonials-img-3 {
+    background: url(../img/client_1.jpg);
+    width: 150px;
+    height: 150px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    border: solid 5px grey;
+    box-shadow: 0 0 15px 2px grey;
+    margin: 0 auto;
+}
+
+.testimonials-img-2 {
+    background: url(../img/client_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonials-img-3 {
+     background: url(../img/client_3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 /* --------------------------------------------  \.Testimonials*/
 
 /* --------------------------------------------  Contact Us*/
