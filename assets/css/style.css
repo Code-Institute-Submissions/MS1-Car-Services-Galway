@@ -353,9 +353,16 @@ h2 {
 }
 
 @media screen and (max-width: 575px) {
-    .about-us-image {
-        width: 100% !important;
-        text-align: center !important;
+    .media-img {
+        width: 150px;
+        height: 160px;
+        margin: 0 auto;
+    }
+
+    .about-us-image-1,
+    .about-us-image-2,
+    .about-us-image-3 {
+        transform: none;
     }
 
     .about-us-image-text {
