@@ -307,6 +307,18 @@ h2 {
     float: left;
 }
 
+/* .about-us-image {
+    background: url(../img/Sammy_junior.jpg);
+    width: 150px;
+    height: 150px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    border: solid 5px grey;
+    box-shadow: 0 0 15px 2px grey;
+} */
+
 .about-us-image-text {
     width: 70%;
     float: left;
