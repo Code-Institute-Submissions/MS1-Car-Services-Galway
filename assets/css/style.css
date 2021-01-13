@@ -299,16 +299,20 @@ h2 {
 .about-us-cell {
     min-width: 320px;
     max-width: 500px;
+    height: 170px;
     margin: 0 auto;
 }
 
 .about-us-image {
-    width: 30%;
+    width: 150px;
+    height: 150px;
     float: left;
 }
 
-/* .about-us-image {
-    background: url(../img/Sammy_junior.jpg);
+.about-us-image-1,
+.about-us-image-2,
+.about-us-image-3 {
+    background: url(../img/Tumisu_owner.jpg);
     width: 150px;
     height: 150px;
     background-position: right;
@@ -317,7 +321,22 @@ h2 {
     border-radius: 50%;
     border: solid 5px grey;
     box-shadow: 0 0 15px 2px grey;
-} */
+    transform: translate(-20px, 0px);
+}
+
+.about-us-image-2 {
+    background: url(../img/junior_2.jpg);
+    background-position: center;
+    background-size: cover;
+    transform: translate(20px, -5px);
+}
+
+.about-us-image-3 {
+    background: url(../img/middle.jpg);
+    background-position: center;
+    background-size: cover;
+    transform: translate(-20px, 30px);
+}
 
 .about-us-image-text {
     width: 70%;
