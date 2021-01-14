@@ -80,16 +80,36 @@ h2 {
 
 
 /* ----------------------------------------------  Header*/
+
+.logo-desk {
+    background-color: gold;
+    width: 95px;
+    height: 105px;
+    transform: rotate3d(27, 2, 25, 58deg);
+    box-shadow: 11px 15px 20px 4px #c7b139;
+    outline: solid 1px;
+    outline-style: dotted;
+    filter: blur(1px);
+}
+
 .logo {
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 24px;
+    top: 10px;
     z-index: 1;
 }
+
 .logo img{
     height: 80px;
-    width: 80px;
-    
+    width: 80px;  
+}
+
+.logo-shadow {
+    position: absolute;
+    left: 18px;
+    top: 31px;
+    filter: blur(2px);
+    transform: rotate3d(37, 3, -96, -67deg);
 }
 
 .oxon-info-on-top {
@@ -146,6 +166,24 @@ h2 {
 @media screen and (max-width: 590px) {
     .navbar-nav .nav-item {
         font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .logo {
+        left: 24px;
+        top: 70px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .logo {
+        left: 25px;
+        top: 0px;
+    }
+
+    .logo-desk {
+        display: none;
     }
 }
 
