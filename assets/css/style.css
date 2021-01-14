@@ -178,7 +178,7 @@ h2 {
 
 @media screen and (max-width: 575px) {
     .logo {
-        left: 25px;
+        left: 0px;
         top: 0px;
     }
 
