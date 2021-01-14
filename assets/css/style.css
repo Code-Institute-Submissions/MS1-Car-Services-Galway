@@ -109,6 +109,7 @@ h2 {
     left: 18px;
     top: 31px;
     filter: blur(2px);
+                        /* Google ispect */
     transform: rotate3d(37, 3, -96, -67deg);
 }
 
@@ -235,15 +236,6 @@ h2 {
     margin-top: 40px;
 }
 
-.welcome-section {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.welcome-text p{
-    font-size: 18px;
-}
-
 @media screen and (max-width: 1024px) {
     .offer-table {
         height: 275px;
@@ -257,6 +249,23 @@ h2 {
     }
 }
 
+/* -------------------------------------------- \.Animation section*/
+
+/* --------------------------------------------  Welcome section*/
+
+.welcome-backgraund {
+    background-color: aqua;
+}
+
+.welcome-section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.welcome-text p{
+    font-size: 18px;
+}
+
 @media screen and (max-width: 885px) {
     .welcome-section {
         width: 90%;
@@ -264,11 +273,11 @@ h2 {
 
     .welcome-text p {
         font-size: 16px;
+        text-align: center;
     }
 }
 
-
-/* -------------------------------------------- \.Animation section*/
+/* --------------------------------------------  \.Welcome section*/
 
 /* --------------------------------------------  Our Services*/
 
