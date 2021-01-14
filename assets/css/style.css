@@ -81,7 +81,7 @@ h2 {
 
 /* ----------------------------------------------  Header*/
 
-.logo-desk {
+/* .logo-desk {
     background-color: gold;
     width: 95px;
     height: 105px;
@@ -90,12 +90,12 @@ h2 {
     outline: solid 1px;
     outline-style: dotted;
     filter: blur(1px);
-}
+} */
 
 .logo {
     position: absolute;
     left: 24px;
-    top: 10px;
+    top: -10px;
     z-index: 1;
 }
 
@@ -172,13 +172,20 @@ h2 {
 @media screen and (max-width: 860px) {
     .logo {
         left: 24px;
-        top: 70px;
+        top: -10px;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .logo {
+        display: none;
     }
 }
 
 @media screen and (max-width: 575px) {
     .logo {
-        left: 0px;
+        display: block;
+        left: 1%;
         top: 0px;
     }
 
