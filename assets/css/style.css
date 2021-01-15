@@ -35,6 +35,7 @@ h1,
 h2,
 h3 {
     text-transform: uppercase;
+    text-shadow: 1px 1px 3px darkgrey;
 }
 
 h1 {
@@ -45,6 +46,10 @@ h1 {
 h2 {
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+p {
+    text-shadow: 1px 1px 1px darkgrey;
 }
 
 .content-to-center {
@@ -317,7 +322,7 @@ span.new-price {
 
 @media screen and (max-width: 991px) {
     .offer-table {
-        top: 30%;
+        top: 27%;
     }
 
     .price-icon {
@@ -412,15 +417,21 @@ span.new-price {
     height: 155px;
 }
 
-.our-service-section, .service-icon {
-    font-size: 70px;
+.service-icon {
+    font-size: 80px;
     float: left;
+    /* https://www.w3schools.com/ */
+    filter: drop-shadow(5px 5px 1px #f5b81c);  
 }
 
 .service-icon {
     margin-left: 10px;
     margin-right: 10px;
     height: 100%;
+}
+
+.service-icon img {
+    width: 90px;
 }
 
 .service-text {
@@ -463,21 +474,23 @@ span.new-price {
     transform: translateX(-50%);    /* ---- To justify background into midle of div */
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 770px) {
     .service-cell {
         margin-bottom: 25px;
+        height: auto;
     }
 
     .service-icon {
         text-align: center;
-        height: 30%;
+        height: auto;
         width: 100%;
-        margin: 0px 0 15px 0;
-        transform: translateY(-20px);
+        /* margin: 0px 0 15px 0;
+        transform: translateY(-20px); */
     }
 
     .service-text {
         text-align: center;
+        margin-right: 0;
     }
 }
 /* --------------------------------------------  \.Our Services*/
