@@ -43,8 +43,8 @@ h1 {
 }
 
 h2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .content-to-center {
@@ -239,17 +239,44 @@ h2 {
             0 0 30px #f5f5f5;
 }
 
-.offer-table h2 {
+/* .offer-table h2 {
     margin-top: 15px;
     margin-bottom: 15px;
+} */
+
+.price-icon {
+    position: relative;
+    font-size: 140px;
+    color: #f5b81c;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.price {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.price-rotation {
+    transform: rotate(-45deg);
 }
 
 .old-price {
     text-decoration: line-through;
+    color: red;
+}
+
+.new-price {
+    color: black;
 }
 
 .offer-table-hidden {
     margin-top: 40px;
+}
+
+span.new-price {
+    text-shadow: 1px, 1px, 3px,#f5b81c;
 }
 
 @media screen and (max-width: 1024px) {
