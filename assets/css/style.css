@@ -222,22 +222,31 @@ h2 {
 }
 
 .offer-table {
+    position: absolute;
+    right: 4%;
+    top: 15%;
+}
+
+/* .price-icon {
+    font-size: 140px;
+} */
+/* .offer-table {
     height: 400px;
     width: 250px;
     background-color: #f5b81c;
     position: absolute;
     top: 120px;
     right: 8%;
-}
+} */
 
-.offer-table {
+/* .offer-table {
     border-radius: 30px;
     transform: rotateZ(-25deg);
     padding: 15px;
     box-shadow: 0 0 15px #f5f5f5,
             0 0 20px #f5f5f5,
             0 0 30px #f5f5f5;
-}
+} */
 
 /* .offer-table h2 {
     margin-top: 15px;
@@ -246,7 +255,8 @@ h2 {
 
 .price-icon {
     position: relative;
-    font-size: 140px;
+    font-size: 340px;
+    transform: rotateZ(15deg);
     color: #f5b81c;
     filter: drop-shadow(2px 4px 6px black);
 }
@@ -259,7 +269,9 @@ h2 {
 }
 
 .price-rotation {
-    transform: rotate(-45deg);
+    transform: rotate(-30deg);
+    width: 245px;
+    height: 200px;
 }
 
 .old-price {
@@ -279,16 +291,58 @@ span.new-price {
     text-shadow: 1px, 1px, 3px,#f5b81c;
 }
 
-@media screen and (max-width: 1024px) {
-    .offer-table {
+@media screen and (max-width: 1280px) {
+    /* .offer-table {
         height: 275px;
         width: 200px;
-        transform: rotateZ(-15deg);
+        transform: rotateZ(-45deg);
         right: 3%;
+    } */
+    .offer-table {
+        top: 24%;
+    }
+    .price-icon {
+        font-size: 240px;
+    }
+
+    .price-rotation {
+        width: 169px;
+        height: 148px;
     }
 
     .offer-table p .extra-text {
         display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .offer-table {
+        top: 30%;
+    }
+
+    .price-icon {
+        font-size: 180px;
+    }
+
+    .price-rotation {
+        width: 130px;
+        height: 110px;
+    }
+
+    .hide-on-tablet {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .price-icon {
+        font-size: 140px;
+    }
+
+    .price-rotation {
+        transform: rotate(-45deg);
+        width: auto;
+        height: auto;
     }
 }
 
