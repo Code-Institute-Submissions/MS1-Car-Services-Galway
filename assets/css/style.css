@@ -60,6 +60,10 @@ h2 {
 
 /* ----------------------------------------------  Colours*/
 
+#hidden-section {
+    background: linear-gradient(#f0f0f0,#fafafa,#fafafa,#f0f0f0);
+}
+
 #our-services {
     background: linear-gradient(#f0f0f0,#fafafa,#fafafa,#f0f0f0);
 }
@@ -76,6 +80,9 @@ h2 {
     background-color: #f5f5f5;
 }
 
+#footer {
+    background-color: #dee1e4;
+}
 /* ----------------------------------------------  \.Colours*/
 
 
@@ -217,7 +224,7 @@ h2 {
 .offer-table {
     height: 400px;
     width: 250px;
-    background-color: cadetblue;
+    background-color: #f5b81c;
     position: absolute;
     top: 120px;
     right: 8%;
