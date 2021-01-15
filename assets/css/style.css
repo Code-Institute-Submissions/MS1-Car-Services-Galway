@@ -35,7 +35,7 @@ h1,
 h2,
 h3 {
     text-transform: uppercase;
-    text-shadow: 1px 1px 3px darkgrey;
+    text-shadow: 1px 1px 2px darkgrey;
 }
 
 h1 {
@@ -438,7 +438,10 @@ span.new-price {
     margin-right: 10px;
 }
 
-.main-service-img1 {
+.main-service-img1,
+.main-service-img2,
+.main-service-img3
+ {
     background: url("../img/danvolks99.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -448,30 +451,30 @@ span.new-price {
     position: relative;
     left: 50%;                      /* ---- To justify background into midle of div (https://www.w3schools.com/css/css3_2dtransforms.asp) */
     transform: translateX(-50%);    /* ---- To justify background into midle of div */
+    box-shadow: 0 5px 5px 5px darkgrey;
+    border-radius: 5px;
 }
 
 .main-service-img2 {
     background: url("../img/Mimzy.jpg");
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    min-height: 350px;
+    /* min-height: 350px;
     max-width: 450px;
     position: relative;
-    left: 50%;                      /* ---- To justify background into midle of div (https://www.w3schools.com/css/css3_2dtransforms.asp) */
-    transform: translateX(-50%);    /* ---- To justify background into midle of div */
+    left: 50%;                      
+    transform: translateX(-50%);     */
 }
 
 .main-service-img3 {
     background: url("../img/JensPRaak.jpg");
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    min-height: 350px;
+    /* min-height: 350px;
     max-width: 450px;
     position: relative;
-    left: 50%;                      /* ---- To justify background into midle of div (https://www.w3schools.com/css/css3_2dtransforms.asp) */
-    transform: translateX(-50%);    /* ---- To justify background into midle of div */
+    left: 50%;                      
+    transform: translateX(-50%);     */
 }
 
 @media screen and (max-width: 770px) {
