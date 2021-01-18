@@ -123,8 +123,8 @@ p {
 }
 
 .logo img{
-    height: 80px;
-    width: 80px;  
+    height: 75px;
+    width: 75px;  
 }
 
 .logo-shadow {
@@ -577,6 +577,10 @@ span.new-price {
 
 .image-text-float-right {
     text-align: right;
+}
+
+.about-us-image-text p small {
+    line-height: 40px;
 }
 
 @media screen and (max-width: 575px) {
