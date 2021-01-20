@@ -881,10 +881,6 @@ li.footer-nav-item {
 }
 
 @media screen and (max-width: 667px) {
-    .license {
-        width: 60%;
-    }
-
     .license ul li {
         float: left;
     }
