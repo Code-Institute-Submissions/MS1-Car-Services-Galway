@@ -334,19 +334,20 @@ h2 {
 
 .offer-table {
     position: absolute;
-    right: 4%;
-    top: 15%;
+    right: 5%;
+    top: 31%;
 }
 
 .offer-table p {
+    font-size: 14px;
     margin: 0;
 }
 
 /* Yellow TAG label */
 .price-icon {
     position: relative;
-    font-size: 340px;
-    transform: rotateZ(15deg);
+    font-size: 320px;
+    transform: rotateZ(16deg);
     color: #f5b81c;
     filter: drop-shadow(2px 10px 10px #f0f0f0);
 }
@@ -360,8 +361,8 @@ h2 {
 
 .price-rotation {
     transform: rotate(-30deg);
-    width: 245px;
-    height: 200px;
+    width: 205px;
+    height: 180px;
 }
 
 .old-price {
@@ -379,15 +380,15 @@ h2 {
 
 @media screen and (max-width: 1280px) {
     .offer-table {
-        top: 24%;
+        top: 40%;
     }
     .price-icon {
-        font-size: 240px;
+        font-size: 210px;
     }
 
     .price-rotation {
-        width: 169px;
-        height: 148px;
+        width: 145px;
+        height: 120px;
     }
 
     .offer-table p .extra-text {
@@ -402,7 +403,7 @@ h2 {
     }
 
     .offer-table {
-        top: 27%;
+        top: 44%;
     }
 
     .price-icon {
@@ -411,7 +412,7 @@ h2 {
 
     .price-rotation {
         width: 130px;
-        height: 110px;
+        height: 95px;
     }
 
     .hide-on-tablet {
@@ -434,6 +435,7 @@ h2 {
 
     .price-icon {
         font-size: 140px;
+        transform: rotateX(45deg);
         filter: drop-shadow(2px 5px 5px #474747);
     }
 
@@ -785,14 +787,28 @@ input[type="submit"]:hover {
     margin-bottom: 25px;
 }
 
+@media screen and (min-width: 575px) {
+    .map {
+        width: 78%;
+        height: 350px;
+    }
+}
+
 @media screen and (max-width: 575px) {
     .map {
-        width: 85%;
+        width: 86%;
         height: 350px;
     }
 
     .contact-form, .contact-info {
         width: 90%;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .map {
+        width: 60%;
+        height: 400px;
     }
 }
 
@@ -848,3 +864,28 @@ li.footer-nav-item {
 }
 
 /* --------------------------------------------  \.Footer*/
+.license {
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.license ul {
+    list-style-type: none;
+}
+
+.license ul li {
+    font-size: 12px;
+    text-decoration: none;
+    display: inline;
+}
+
+@media screen and (max-width: 667px) {
+    .license {
+        width: 60%;
+    }
+
+    .license ul li {
+        float: left;
+    }
+}
