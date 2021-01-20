@@ -494,6 +494,7 @@ p {
 
     .price-icon {
         font-size: 140px;
+        filter: drop-shadow(2px 5px 5px #474747);
     }
 
     .price-rotation {
