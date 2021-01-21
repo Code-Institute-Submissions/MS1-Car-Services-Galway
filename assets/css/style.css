@@ -475,7 +475,7 @@ h2 {
     bottom: 0;      
     left: 0;
     right: 0;
-    background: url(../img/background/bg_1.jpg);
+    background: url(../img/background/bg_1.webp);
     background-size: cover;
     opacity: 0.2;
 }
@@ -536,7 +536,7 @@ h2 {
 .main-service-img2,
 .main-service-img3
  {
-    background: url("../img/danvolks99.jpg");
+    background: url("../img/danvolks99-min.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -550,13 +550,13 @@ h2 {
 }
 
 .main-service-img2 {
-    background: url("../img/Mimzy.jpg");
+    background: url("../img/Mimzy-min.jpg");
     background-position: center;
     background-size: cover;
 }
 
 .main-service-img3 {
-    background: url("../img/JensPRaak.jpg");
+    background: url("../img/JensPRaak-min.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -591,7 +591,7 @@ h2 {
 .about-us-background::before {
     content: '';
     position: absolute;
-    background: url(../img/background/bg_2.jpg);
+    background: url(../img/background/bg_2.webp);
     top: 0;
     bottom: 0;
     left: 0;
@@ -618,7 +618,7 @@ h2 {
 .about-us-image-1,
 .about-us-image-2,
 .about-us-image-3 {
-    background: url(../img/Tumisu_owner.jpg);
+    background: url(../img/Tumisu_owner-min.jpg);
     width: 150px;
     height: 150px;
     background-position: right;
@@ -631,14 +631,14 @@ h2 {
 }
 
 .about-us-image-2 {
-    background: url(../img/junior_2.jpg);
+    background: url(../img/junior_2-min.jpg);
     background-position: center;
     background-size: cover;
     transform: translate(20px, -5px);
 }
 
 .about-us-image-3 {
-    background: url(../img/middle.jpg);
+    background: url(../img/middle-min.jpg);
     background-position: center;
     background-size: cover;
     transform: translate(-20px, 30px);
@@ -689,7 +689,7 @@ h2 {
 .testimonials-img-1,
 .testimonials-img-2,
 .testimonials-img-3 {
-    background: url(../img/client_1.jpg);
+    background: url(../img/client_1-min.jpg);
     width: 150px;
     height: 150px;
     background-position: right;
@@ -702,14 +702,14 @@ h2 {
 }
 
 .testimonials-img-2 {
-    background: url(../img/client_2.jpg);
+    background: url(../img/client_2-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .testimonials-img-3 {
-     background: url(../img/client_3.jpg);
+     background: url(../img/client_3-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -731,7 +731,7 @@ h2 {
 .contact-us-background::before {
     content: '';
     position: absolute;
-    background: url(../img/background/bg_2.jpg);
+    background: url(../img/background/bg_2.webp);
     top: 0;
     bottom: 0;
     left: 0;
@@ -794,14 +794,14 @@ input[type="submit"]:hover {
 
 @media screen and (min-width: 575px) {
     .map {
-        width: 78%;
+        width: 80%;
         height: 350px;
     }
 }
 
 @media screen and (max-width: 575px) {
     .map {
-        width: 86%;
+        width: 90%;
         height: 350px;
     }
 
