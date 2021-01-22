@@ -564,13 +564,13 @@ h2 {
 }
 
 .main-service-img2 {
-    background: url("../img/Mimzy-min.jpg");
+    background: url("../img/mimzy-min.jpg");
     background-position: center;
     background-size: cover;
 }
 
 .main-service-img3 {
-    background: url("../img/JensPRaak-min.jpg");
+    background: url("../img/jenspraak-min.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -634,7 +634,7 @@ h2 {
 .about-us-image-1,
 .about-us-image-2,
 .about-us-image-3 {
-    background: url(../img/Tumisu_owner-min.jpg);
+    background: url(../img/tumisu_owner-min.jpg);
     width: 150px;
     height: 150px;
     background-position: right;
