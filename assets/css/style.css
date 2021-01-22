@@ -378,9 +378,9 @@ h2 {
 }
 
 .price-rotation {
-    transform: rotate(-30deg);
+    transform: rotate(-30deg) translateX(10px);
     width: 205px;
-    height: 180px;
+    height: 200px;
 }
 
 .old-price {
@@ -406,7 +406,8 @@ h2 {
 
     .price-rotation {
         width: 145px;
-        height: 120px;
+        height: 135px;
+        transform: rotate(-30deg) translateX(5px);
     }
 
     .offer-table p .extra-text {
