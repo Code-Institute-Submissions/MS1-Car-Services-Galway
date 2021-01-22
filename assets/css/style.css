@@ -127,16 +127,17 @@ h2 {
     width: 70px;  
 }
 
+/*     Logo shadow section    */
 .logo-shadow {
     position: absolute;
     left: 18px;
     top: 31px;
     filter: blur(2px);
-                        /* Google ispect */
     transform: rotate3d(37, 3, -96, -67deg);
 }
+/*     Logo shadow section    */
 
-/* To remove filter effect from logos do to in Global CSS "a" has it  */
+/* To remove filter effect from logos, do to in Global CSS "a" has it  */
 .logo a:hover {
     filter: none;
 }
@@ -177,14 +178,14 @@ h2 {
     transition: .15s ease-in-out;
 }
 
-/* Social media block which appears on toggled menu (found by Chrome inspect) */
+/* Social media block - appears on the toggled menu (Bootstrap class) */
 .navbar .social-media-menu {
     position: absolute;
     right: 0;
     top: 5px;
 } 
 
-/* Toggled menu button - Bootstrap class */
+/* Toggled menu button - (Bootstrap class) */
 .navbar-toggler:focus {
     box-shadow: 0 0 0 2px;
 }
@@ -215,7 +216,7 @@ h2 {
     }
 }
 
-/* Makes font-size smaller as menu can't fit into lenght of bar */
+/* Makes font-size smaller as menu can't fit into lenght of bar lower then 590px */
 
 @media screen and (max-width: 590px) {
     .navbar-nav .nav-item {
@@ -281,6 +282,7 @@ h2 {
 
 /* OXEN Text animation section */
 
+
 .company-name {
     position: absolute;
     left: 50%;
@@ -308,6 +310,7 @@ h2 {
     opacity: 0;
 }
 
+/* 'forwards' stops animation from playing - https://www.w3schools.com/cssref/css3_pr_animation-fill-mode.asp */
 .company-name ul li:nth-child(1) {
     animation: name-rotate 2s linear forwards;
     
@@ -472,12 +475,13 @@ h2 {
 
 /* --------------------------------------------  Welcome section*/
 
-/* Transparent background - Youtube chanel Coder Coder */
+
 .welcome-backgraund {
     position: relative;
     z-index: -1;
 }
 
+/* Transparent background - Youtube chanel Coder Coder */
 .welcome-backgraund::before {
     content: '';
     position: absolute;
@@ -489,7 +493,7 @@ h2 {
     background-size: cover;
     opacity: 0.2;
 }
-/* Youtube chanel Coder Coder */
+/* Transparent background - Youtube chanel Coder Coder */
 
 .welcome-section {
     width: 80%;
@@ -522,7 +526,7 @@ h2 {
     height: 155px;
 }
 
-/* Add shadow effect to icons - https://www.w3schools.com/ */
+/* Add shadow effect to icons throughout 'filter' attribute - https://www.w3schools.com/cssref/css3_pr_filter.asp */
 .service-icon {
     font-size: 80px;
     float: left;
@@ -553,8 +557,8 @@ h2 {
     min-height: 350px;
     max-width: 450px;
     position: relative;
-    left: 50%;                      /* ---- To justify background into midle of div (https://www.w3schools.com/css/css3_2dtransforms.asp) */
-    transform: translateX(-50%);    /* ---- To justify background into midle of div */
+    left: 50%;
+    transform: translateX(-50%);
     box-shadow: 0 5px 5px 5px darkgrey;
     border-radius: 5px;
 }
@@ -598,6 +602,7 @@ h2 {
     position: relative;
 }
 
+/* Transparent background - Youtube chanel Coder Coder */
 .about-us-background::before {
     content: '';
     position: absolute;
@@ -611,6 +616,7 @@ h2 {
     background-repeat: no-repeat;
     opacity: 0.2;
 }
+/* Transparent background - Youtube chanel Coder Coder */
 
 .about-us-cell {
     min-width: 320px;
@@ -734,6 +740,7 @@ h2 {
     position: relative;
 }
 
+/* Transparent background - Youtube chanel Coder Coder */
 .contact-us-background::before {
     content: '';
     position: absolute;
@@ -748,6 +755,7 @@ h2 {
     transform: scale(-1);
     opacity: 0.2;
 }
+/* Transparent background - Youtube chanel Coder Coder */
 
 .map {
     position: relative;
