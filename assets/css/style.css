@@ -257,6 +257,7 @@ h2 {
     transform: translate(-50%,-50%);
     height: 300px;
     opacity: 0;
+    -webkit-box-reflect: below -160px linear-gradient(transparent, rgb(0, 0, 8, 0.1));
 }
 
 .white-logo img {
