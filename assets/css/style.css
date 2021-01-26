@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
 
 * {
@@ -34,11 +41,14 @@ p {
 a, a:focus {
     text-decoration: none;
     color: #000000;
+    -webkit-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
 }
 
 a:hover {
-    filter: drop-shadow(0px 3px 1px #000);
+    -webkit-filter: drop-shadow(0px 3px 1px #000);
+            filter: drop-shadow(0px 3px 1px #000);
     color: gold;
 }
 
@@ -82,10 +92,14 @@ h2 {
 /* ----------------------------------------------  Colours*/
 
 #hidden-section {
+    background: -webkit-gradient(linear,left top, left bottom,from(#f0f0f0),color-stop(#fafafa),color-stop(#fafafa),to(#f0f0f0));
+    background: -o-linear-gradient(#f0f0f0,#fafafa,#fafafa,#f0f0f0);
     background: linear-gradient(#f0f0f0,#fafafa,#fafafa,#f0f0f0);
 }
 
 #our-services {
+    background: -webkit-gradient(linear,left top, left bottom,from(#f0f0f0),color-stop(#fafafa),color-stop(#fafafa),to(#f0f0f0));
+    background: -o-linear-gradient(#f0f0f0,#fafafa,#fafafa,#f0f0f0);
     background: linear-gradient(#f0f0f0,#fafafa,#fafafa,#f0f0f0);
 }
 
@@ -94,6 +108,8 @@ h2 {
 }
 
 #testimonials {
+    background: -webkit-gradient(linear,left top, left bottom,from(#f0f0f0),color-stop(#fafafa),color-stop(#fafafa),to(#f0f0f0));
+    background: -o-linear-gradient(#f0f0f0,#fafafa,#fafafa,#f0f0f0);
     background: linear-gradient(#f0f0f0,#fafafa,#fafafa,#f0f0f0);
 }
 
@@ -110,6 +126,7 @@ h2 {
 /* ----------------------------------------------  Header*/
 
 .sticky-container {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -133,14 +150,17 @@ h2 {
     position: absolute;
     left: 18px;
     top: 31px;
-    filter: blur(2px);
-    transform: rotate3d(37, 3, -96, -67deg);
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
+    -webkit-transform: rotate3d(37, 3, -96, -67deg);
+            transform: rotate3d(37, 3, -96, -67deg);
 }
 /*     Logo shadow section    */
 
 /* To remove filter effect from logos, do to in Global CSS "a" has it  */
 .logo a:hover {
-    filter: none;
+    -webkit-filter: none;
+            filter: none;
 }
 
 .oxon-info-on-top {
@@ -173,9 +193,12 @@ h2 {
 
 .nav-item:hover {
     background-color: #f0f0f0;
-    filter: drop-shadow(0px 2px 1px #000);
+    -webkit-filter: drop-shadow(0px 2px 1px #000);
+            filter: drop-shadow(0px 2px 1px #000);
     border-radius: 3px;
     font-weight: 500;
+    -webkit-transition: .15s ease-in-out;
+    -o-transition: .15s ease-in-out;
     transition: .15s ease-in-out;
 }
 
@@ -188,7 +211,8 @@ h2 {
 
 /* Toggled menu button - (Bootstrap class) */
 .navbar-toggler:focus {
-    box-shadow: 0 0 0 2px;
+    -webkit-box-shadow: 0 0 0 2px;
+            box-shadow: 0 0 0 2px;
 }
 
 @media screen and (min-width: 575px) {
@@ -222,7 +246,8 @@ h2 {
 @media screen and (max-width: 590px) {
     .navbar-nav .nav-item {
         font-size: 15px;
-        filter: none;
+        -webkit-filter: none;
+                filter: none;
         text-align: center;
     }
 }
@@ -255,27 +280,48 @@ h2 {
     position: absolute;
     top: 30%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
     height: 300px;
     opacity: 0;
     -webkit-box-reflect: below -160px linear-gradient(transparent, rgb(0, 0, 8, 0.1));
 }
 
 .white-logo img {
-    animation: img-animation 2s linear forwards;
-    animation-delay: 1s;
+    -webkit-animation: img-animation 2s linear forwards;
+            animation: img-animation 2s linear forwards;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+}
+
+@-webkit-keyframes img-animation {
+    0%
+    {
+        opacity: 0;
+        -webkit-filter: blur(10px);
+                filter: blur(10px);
+    }
+    100%
+    {
+        opacity: 1;
+        -webkit-filter: blur(0px);
+                filter: blur(0px);
+    }
 }
 
 @keyframes img-animation {
     0%
     {
         opacity: 0;
-        filter: blur(10px);
+        -webkit-filter: blur(10px);
+                filter: blur(10px);
     }
     100%
     {
         opacity: 1;
-        filter: blur(0px);
+        -webkit-filter: blur(0px);
+                filter: blur(0px);
     }
 }
 
@@ -289,7 +335,9 @@ h2 {
     position: absolute;
     left: 50%;
     top: 65%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     color: #f9f9f9;
     font-size: 130px;
     font-weight: 700;
@@ -314,38 +362,69 @@ h2 {
 
 /* 'forwards' stops animation from playing - https://www.w3schools.com/cssref/css3_pr_animation-fill-mode.asp */
 .company-name ul li:nth-child(1) {
-    animation: name-rotate 2s linear forwards;
+    -webkit-animation: name-rotate 2s linear forwards;
+            animation: name-rotate 2s linear forwards;
     
 }
 
 .company-name ul li:nth-child(2) {
-    animation: name-rotate 2s linear forwards;
-    animation-delay: 0.5s;
+    -webkit-animation: name-rotate 2s linear forwards;
+            animation: name-rotate 2s linear forwards;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
 }
 
 .company-name ul li:nth-child(3) {
-    animation: name-rotate 2s linear forwards;
-    animation-delay: 1s;
+    -webkit-animation: name-rotate 2s linear forwards;
+            animation: name-rotate 2s linear forwards;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
 }
 
 .company-name ul li:nth-child(4) {
-    animation: name-rotate 2s linear forwards;
-    animation-delay: 1.5s;
+    -webkit-animation: name-rotate 2s linear forwards;
+            animation: name-rotate 2s linear forwards;
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+}
+
+@-webkit-keyframes name-rotate {
+    0%
+    {   
+        -webkit-transform: rotateY(90deg);   
+                transform: rotateY(90deg);
+        opacity: 0;
+        -webkit-filter: blur(10px);
+                filter: blur(10px);
+    }
+
+    100%
+    {
+        -webkit-transform: rotateY(0deg);
+                transform: rotateY(0deg);
+        opacity: 1;
+        -webkit-filter: blur(0px);
+                filter: blur(0px);
+    }
 }
 
 @keyframes name-rotate {
     0%
     {   
-        transform: rotateY(90deg);
+        -webkit-transform: rotateY(90deg);   
+                transform: rotateY(90deg);
         opacity: 0;
-        filter: blur(10px);
+        -webkit-filter: blur(10px);
+                filter: blur(10px);
     }
 
     100%
     {
-        transform: rotateY(0deg);
+        -webkit-transform: rotateY(0deg);
+                transform: rotateY(0deg);
         opacity: 1;
-        filter: blur(0px);
+        -webkit-filter: blur(0px);
+                filter: blur(0px);
     }
 }
 
@@ -367,20 +446,27 @@ h2 {
 .price-icon {
     position: relative;
     font-size: 320px;
-    transform: rotateZ(16deg);
+    -webkit-transform: rotateZ(16deg);
+        -ms-transform: rotate(16deg);
+            transform: rotateZ(16deg);
     color: #f5b81c;
-    filter: drop-shadow(2px 10px 10px #f0f0f0);
+    -webkit-filter: drop-shadow(2px 10px 10px #f0f0f0);
+            filter: drop-shadow(2px 10px 10px #f0f0f0);
 }
 
 .price {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
 }
 
 .price-rotation {
-    transform: rotate(-30deg) translateX(10px);
+    -webkit-transform: rotate(-30deg) translateX(10px);
+        -ms-transform: rotate(-30deg) translateX(10px);
+            transform: rotate(-30deg) translateX(10px);
     width: 205px;
     height: 200px;
 }
@@ -409,7 +495,9 @@ h2 {
     .price-rotation {
         width: 145px;
         height: 135px;
-        transform: rotate(-30deg) translateX(5px);
+        -webkit-transform: rotate(-30deg) translateX(5px);
+            -ms-transform: rotate(-30deg) translateX(5px);
+                transform: rotate(-30deg) translateX(5px);
     }
 
     .offer-table p .extra-text {
@@ -456,12 +544,16 @@ h2 {
 
     .price-icon {
         font-size: 140px;
-        transform: rotateX(45deg);
-        filter: drop-shadow(2px 5px 5px #474747);
+        -webkit-transform: rotateX(45deg);
+                transform: rotateX(45deg);
+        -webkit-filter: drop-shadow(2px 5px 5px #474747);
+                filter: drop-shadow(2px 5px 5px #474747);
     }
 
     .price-rotation {
-        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+                transform: rotate(-45deg);
         width: auto;
         height: auto;
     }
@@ -536,7 +628,8 @@ h2 {
     margin-left: 10px;
     margin-right: 15px;
     height: 100%;
-    filter: drop-shadow(5px 5px 1px #f5b81c);
+    -webkit-filter: drop-shadow(5px 5px 1px #f5b81c);
+            filter: drop-shadow(5px 5px 1px #f5b81c);
 }
 
 .service-icon img {
@@ -561,8 +654,11 @@ h2 {
     max-width: 450px;
     position: relative;
     left: 50%;
-    transform: translateX(-50%);
-    box-shadow: 0 5px 5px 5px darkgrey;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    -webkit-box-shadow: 0 5px 5px 5px darkgrey;
+            box-shadow: 0 5px 5px 5px darkgrey;
     border-radius: 5px;
 }
 
@@ -645,22 +741,29 @@ h2 {
     background-size: cover;
     border-radius: 50%;
     border: solid 5px grey;
-    box-shadow: 0 0 15px 2px grey;
-    transform: translate(-20px, 0px);
+    -webkit-box-shadow: 0 0 15px 2px grey;
+            box-shadow: 0 0 15px 2px grey;
+    -webkit-transform: translate(-20px, 0px);
+        -ms-transform: translate(-20px, 0px);
+            transform: translate(-20px, 0px);
 }
 
 .about-us-image-2 {
     background: url(../img/junior_2-min.jpg);
     background-position: center;
     background-size: cover;
-    transform: translate(20px, -5px);
+    -webkit-transform: translate(20px, -5px);
+        -ms-transform: translate(20px, -5px);
+            transform: translate(20px, -5px);
 }
 
 .about-us-image-3 {
     background: url(../img/middle-min.jpg);
     background-position: center;
     background-size: cover;
-    transform: translate(-20px, 30px);
+    -webkit-transform: translate(-20px, 30px);
+        -ms-transform: translate(-20px, 30px);
+            transform: translate(-20px, 30px);
 }
 
 .about-us-image-text {
@@ -687,7 +790,9 @@ h2 {
     .about-us-image-1,
     .about-us-image-2,
     .about-us-image-3 {
-        transform: none;
+        -webkit-transform: none;
+            -ms-transform: none;
+                transform: none;
     }
 
     .about-us-image-text {
@@ -712,7 +817,8 @@ h2 {
     background-size: cover;
     border-radius: 50%;
     border: solid 5px grey;
-    box-shadow: 0 0 15px 2px grey;
+    -webkit-box-shadow: 0 0 15px 2px grey;
+            box-shadow: 0 0 15px 2px grey;
     margin: 0 auto;
 }
 
@@ -755,7 +861,9 @@ h2 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    transform: scale(-1);
+    -webkit-transform: scale(-1);
+        -ms-transform: scale(-1);
+            transform: scale(-1);
     opacity: 0.2;
 }
 /* Transparent background - Youtube chanel Coder Coder */
@@ -765,7 +873,8 @@ h2 {
     width: 60%;
     height: 450px;
     margin: 0 auto;
-    box-shadow: 0 0 15px 2px grey;
+    -webkit-box-shadow: 0 0 15px 2px grey;
+            box-shadow: 0 0 15px 2px grey;
     border-radius: 10px;
 }
 
@@ -774,7 +883,8 @@ h2 {
     width: 80%;
     height: 100%;
     margin: 0 auto;
-    box-shadow: 0 0 15px 2px grey;
+    -webkit-box-shadow: 0 0 15px 2px grey;
+            box-shadow: 0 0 15px 2px grey;
     border-radius: 10px;
     padding: 10px;
 }
@@ -802,7 +912,8 @@ input[type="submit"]:hover {
     background-color: #474747;
     color: #f0f0f0;
     font-weight: bold;
-    filter: drop-shadow(0px 2px 3px black);
+    -webkit-filter: drop-shadow(0px 2px 3px black);
+            filter: drop-shadow(0px 2px 3px black);
 }
 
 .margin-text {
@@ -861,15 +972,19 @@ input[type="submit"]:hover {
 
 .footer-nav-item:hover {
     background-color: #f0f0f0;
-    filter: drop-shadow(0px 2px 1px #000);
+    -webkit-filter: drop-shadow(0px 2px 1px #000);
+            filter: drop-shadow(0px 2px 1px #000);
     border-radius: 3px;
     font-weight: 500;
+    -webkit-transition: .15s ease-in-out;
+    -o-transition: .15s ease-in-out;
     transition: .15s ease-in-out;
 }
 
 .footer-nav-item a:hover {
     color: black;
-    filter: drop-shadow(0px 2px 1px #000);
+    -webkit-filter: drop-shadow(0px 2px 1px #000);
+            filter: drop-shadow(0px 2px 1px #000);
 }
 
 li.footer-nav-item {
@@ -882,7 +997,8 @@ li.footer-nav-item {
     }
 
     .footer-nav-item:hover {
-        filter: none;
+        -webkit-filter: none;
+                filter: none;
     }
 }
 
