@@ -613,12 +613,14 @@ h2 {
 /* --------------------------------------------  \.Welcome section*/
 
 /* --------------------------------------------  Our Services*/
-.service-title {
-    margin-bottom: 45px;
+.our-service-section {
+    width: 90%;
+    margin: 0 auto;
 }
 
 .service-cell {
-    height: 155px;
+    height: auto;
+    margin: 5px 0 5px 0;
 }
 
 /* Add shadow effect to icons throughout 'filter' attribute - https://www.w3schools.com/cssref/css3_pr_filter.asp */
