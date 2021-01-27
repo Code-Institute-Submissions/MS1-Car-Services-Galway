@@ -676,6 +676,12 @@ h2 {
     background-size: cover;
 }
 
+@media screen and (max-width: 1200px){
+    .our-service-section {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 770px) {
     .service-cell {
         margin-bottom: 25px;
