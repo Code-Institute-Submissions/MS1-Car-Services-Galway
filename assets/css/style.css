@@ -241,6 +241,12 @@ h2 {
     }
 }
 
+@media screen and (max-width: 618px){
+    .oxon-info-on-top p {
+        font-size: 15px;
+    }
+}
+
 /* Makes font-size smaller as menu can't fit into lenght of bar lower then 590px */
 
 @media screen and (max-width: 590px) {
