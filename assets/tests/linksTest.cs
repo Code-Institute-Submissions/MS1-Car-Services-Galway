@@ -26,17 +26,18 @@ namespace ConsoleAppTest1
 
             foreach (var node in htmlNodes)
             {
-                        //standard website Navigation links
-                if (node.Attributes["href"].Value == "index.html")
+                //standard website Navigation links (/index.html, /aboutme.html ...)
+                if (node.Attributes["href"].Value.Substring(0, 1) == "/")
                 {
-                    urlList.Add(html);
-                }       //section navigation links "#home"
+                    urlList.Add(html.Substring(0, html.Length - node.Attributes["href"].Value.Length) + node.Attributes["href"].Value);
+                }
+                //section navigation links (#home, #abouut_us ...)
                 else if (node.Attributes["href"].Value.Substring(0, 1) == "#")
                 {
                     urlList.Add(html + node.Attributes["href"].Value);
                 }
                 else
-                {       //third party links
+                {    //third party links
                     urlList.Add(node.Attributes["href"].Value);
                 }
 
