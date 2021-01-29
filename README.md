@@ -103,7 +103,10 @@ Please note that they may not reflect a 100% replicated end result of my website
 
 
 **1.Below test is going to confirm, if developed website accurately works across most popular web browsers and mobile devices as well if all CSS grids, Toggled menu works properly, all images, icons, backgrounds are present and displayed correctly:**
-N - Fail //	Y - Pass 	
+
+- Link to test [here](https://github.com/Kpokc/MS1-Car-Services-Galway/blob/master/assets/tests/visual_defect_test.xlsx)
+
+>N - Fail //	Y - Pass 	
 
 | Browser| Chrome |  IE | Opera | Firefox |
 | ------ | ------ | ------ | ------ |------ |
