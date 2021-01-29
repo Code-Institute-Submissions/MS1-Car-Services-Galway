@@ -292,14 +292,13 @@ h2 {
             transform: translate(-50%,-50%);
     height: 300px;
     opacity: 0;
-    -webkit-box-reflect: below -160px linear-gradient(transparent, rgb(0, 0, 8, 0.1));
 }
 
 .white-logo img {
     -webkit-animation: img-animation 2s linear forwards;
             animation: img-animation 2s linear forwards;
-    -webkit-animation-delay: 1s;
-            animation-delay: 1s;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
 }
 
 @-webkit-keyframes img-animation {
