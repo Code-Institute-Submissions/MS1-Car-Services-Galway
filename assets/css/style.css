@@ -195,11 +195,13 @@ h2 {
     background-color: #f0f0f0;
     -webkit-filter: drop-shadow(0px 2px 1px #000);
             filter: drop-shadow(0px 2px 1px #000);
+    outline: solid 1px;
+    outline-offset: -5px;
     border-radius: 3px;
     font-weight: 500;
-    -webkit-transition: .15s ease-in-out;
-    -o-transition: .15s ease-in-out;
-    transition: .15s ease-in-out;
+    -webkit-transition: .35s ease-in-out;
+    -o-transition: .35s ease-in-out;
+    transition: .35s ease-in-out;
 }
 
 /* Social media block - appears on the toggled menu (Bootstrap class) */
@@ -990,9 +992,11 @@ input[type="submit"]:hover {
             filter: drop-shadow(0px 2px 1px #000);
     border-radius: 3px;
     font-weight: 500;
-    -webkit-transition: .15s ease-in-out;
-    -o-transition: .15s ease-in-out;
-    transition: .15s ease-in-out;
+    outline: solid 1px;
+    outline-offset: -5px;
+    -webkit-transition: .35s ease-in-out;
+    -o-transition: .35s ease-in-out;
+    transition: .35s ease-in-out;
 }
 
 .footer-nav-item a:hover {
