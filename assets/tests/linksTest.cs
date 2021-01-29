@@ -12,7 +12,7 @@ namespace ConsoleAppTest1
     {
         static void Main(string[] args)
         {
-                        //Below you can place link to your website
+                        //Link to the website
             var html = @"https://kpokc.github.io/MS1-Car-Services-Galway/index.html";
 
             HtmlWeb web = new HtmlWeb();
@@ -26,8 +26,8 @@ namespace ConsoleAppTest1
 
             foreach (var node in htmlNodes)
             {
-                //standard website Navigation links (/index.html, /aboutme.html ...)
-                if (node.Attributes["href"].Value.Substring(0, 1) == "/")
+                //standard website Navigation link (i have only one that kind of link - index.html)
+                if (node.Attributes["href"].Value == "index.html")
                 {
                     urlList.Add(html.Substring(0, html.Length - node.Attributes["href"].Value.Length) + node.Attributes["href"].Value);
                 }
@@ -42,21 +42,22 @@ namespace ConsoleAppTest1
                 }
 
             }
+
             //remove duplicates from list
             urlList = urlList.Distinct().ToList();
 
             foreach (string link in urlList)
             {
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(link);
-                
+
                 try
                 {
                     HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-                            //Get status of response
+                    //Get status of response
                     String ver = response.StatusCode.ToString();
                     if (ver == "OK")
                     {
-                        /*var status = response.StatusCode;*/
+                        var status = response.StatusCode;
                         Console.WriteLine(link + "   " + ver);
                         response.Close();
                     }
