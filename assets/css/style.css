@@ -135,7 +135,7 @@ h2 {
 
 .logo {
     position: absolute;
-    left: 24px;
+    left: 10px;
     top: -10px;
     z-index: 1;
 }
@@ -165,10 +165,14 @@ h2 {
 
 .oxon-info-on-top {
     text-align: center;
-    line-height: 30px;
     padding-top: 4px;
     margin: 0;
     background-color: #f0f0f0;
+}
+
+.oxon-info-on-top p{
+    margin-bottom: 0;
+    line-height: 30px;
 }
 
 /* Top menu background light (Bootstrap class)  */
@@ -232,7 +236,7 @@ h2 {
 
 @media screen and (max-width: 860px) {
     .logo {
-        left: 24px;
+        left: 5px;
         top: -10px;
     }
 }
