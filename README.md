@@ -61,7 +61,7 @@ Please note that they may not reflect a 100% replicated end result of my website
 -	**Footer** - User can access menu.
 
 ### Initial Existing Features
--	Implement contact form submission function.
+-	Implement "Contact form" submission function.
 
 ## Technologies Used
 ---
@@ -102,14 +102,10 @@ Please note that they may not reflect a 100% replicated end result of my website
 
 ### Cross browser testing:
 > - During development process, I conducted regular testing through the use of Chrome DevTools, so most of the bugs were removed at development stage.
-> - 
 
 
 **1.Below test is going to confirm, if developed website accurately works across most popular web browsers and mobile devices as well if all CSS grids, Toggled menu works properly, all images, icons, backgrounds are present and displayed correctly:**
 N - Fail //	Y - Pass 	
-
-
-**1.Below test is going to confirm, if developed website accurately works across most popular web browsers and mobile devices as well if all CSS grids, Toggled menu works properly, all images, icons, backgrounds are present and displayed correctly:**
 
 - Link to test [here](https://github.com/Kpokc/MS1-Car-Services-Galway/blob/master/assets/tests/visual_defect_test.xlsx)
 
@@ -133,7 +129,14 @@ Solved: our-service-section max-width 1200px - width increased to 100%
 >Solved: oxon-info-on-top max-width:765px - font size decrised to 15px
 ```
 
-**2. Below automated test done to verify if all links are working:** Links were tested manualy as well.
+**2. Links testing**
+    - Logo (left top) - reloads the wabesite and brings user back to top of landing page.
+    - OXEN Garage - open new tab in browser with a link to google maps (potential location of the garage).
+    - Social media links (top right) and bottom of Contact info section - all links are working and opens a new tab in browser.
+    - Contact form - All fields works fine and are required. Submission function is not implemented yet.
+    - Footer links - all links are working and opens a new tab in browser. 
+
+**3. Below automated test done to verify if all links http request are working correctly:** 
 - **Link to my automated test is [here](https://github.com/Kpokc/MS1-Car-Services-Galway/blob/master/assets/tests/linksTest.cs).**  
 
 >-**First Test**
