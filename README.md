@@ -86,6 +86,7 @@ Please note that they may not reflect a 100% replicated end result of my website
 - [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - Helps you edit pages on-the-fly and diagnose problems quickly.
 - [Autoprefixer](https://autoprefixer.github.io/) - Parses CSS and adds vendor prefixes.
 - [Dillinger](https://dillinger.io/) - Online README editor
+- [Am I Responsive](http://ami.responsivedesign.is/#) - Screen shots of the various device breakpoints for responsive design.
 
 ## Testing
 ---
