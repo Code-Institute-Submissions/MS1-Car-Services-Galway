@@ -245,14 +245,12 @@ h2 {
     .logo {
         display: none;
     }
-}
 
-@media screen and (max-width: 765px){
     .oxon-info-on-top p {
         font-size: 14px;
-        margin-bottom: 0;
     }
 }
+
 
 /* Makes font-size smaller as menu can't fit into lenght of bar lower then 590px */
 
