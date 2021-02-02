@@ -1,6 +1,8 @@
 # Project: OXEN Car Service
 [View this website on GitHub Pages]( https://kpokc.github.io/MS1-Car-Services-Galway/index.html)
 
+<h1 align="Center"><img src="assets/img/responsive_img/responsive.bmp"></h1>
+
 ---
 
 The primary goal of the website is to represent OXEN Car Service garage on the web and to attract new customers through Google search. And to interact with existing and potential customers.
