@@ -57,7 +57,6 @@ namespace ConsoleAppTest1
                     String ver = response.StatusCode.ToString();
                     if (ver == "OK")
                     {
-                        var status = response.StatusCode;
                         Console.WriteLine(link + "   " + ver);
                         response.Close();
                     }

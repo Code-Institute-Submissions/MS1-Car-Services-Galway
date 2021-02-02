@@ -74,6 +74,9 @@ Please note that they may not reflect a 100% replicated end result of my website
 
 ### Frameworks, Libraries & Programs
 - [Bootstrap](https://getbootstrap.com/) - The project uses Bootstrap facilitate a responsive mobile-first design and user experience.
+- [Visual Studio 2019](https://visualstudio.microsoft.com/)
+- [Bootstrap](https://getbootstrap.com/) - The project uses Bootstrap facilitate a responsive mobile-first design and user experience.
+- [HTML Agility Pack](https://html-agility-pack.net/download) / / [Agility DOCS](https://html-agility-pack.net/documentation) - HAP is an HTML parser written in C# to read/write DOM and supports plain XPATH or XSLT.
 - [Balsamiq Wireframes](https://balsamiq.com/) - To create wireframes.
 - [GitHub]( https://github.com/Kpokc) - Used to store the project's code.
 - [Git](https://git-scm.com/) / [GitPod](https://gitpod.io/workspaces/) - Used for version control.
@@ -89,6 +92,7 @@ Please note that they may not reflect a 100% replicated end result of my website
 - [Closing Tag Checker](https://www.aliciaramirez.com/closing-tags-checker/) - Closing Tag Checker for HTML5
 - [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) - Mobile-friendly check.
 - [Google Lighthouse](https://web.dev/measure/?gclid=Cj0KCQiAmL-ABhDFARIsAKywVafiGIsP9vTw5JFvUE3160xtJvA3OEmyO3pu4xbHtuFtBgXB3Ws2sA4aAiVoEALw_wcB) - To see how well your website performs [OXEN Performance](https://github.com/Kpokc/MS1-Car-Services-Galway/blob/master/assets/img/lighthouse/performance.jpg). 
+- [Google Lighthouse](https://web.dev/measure/?gclid=Cj0KCQiAmL-ABhDFARIsAKywVafiGIsP9vTw5JFvUE3160xtJvA3OEmyO3pu4xbHtuFtBgXB3Ws2sA4aAiVoEALw_wcB) - To see how well your website performs [OXEN Performance](https://github.com/Kpokc/MS1-Car-Services-Galway/blob/master/assets/img/lighthouse/performance.png). 
 - [Online-Spellcheck](https://www.online-spellcheck.com/) Online spelling and grammar checks.
 - [HTML Agility Pack](https://html-agility-pack.net/download) / / [Agility DOCS](https://html-agility-pack.net/documentation) - HAP is an HTML parser written in C# to read/write DOM and supports plain XPATH or XSLT.
 - [Microsoft C#](https://docs.microsoft.com/en-us/dotnet/framework/network-programming/how-to-request-data-using-the-webrequest-class) - To request data from a host server.
@@ -103,6 +107,13 @@ Please note that they may not reflect a 100% replicated end result of my website
 
 **1.Below test is going to confirm, if developed website accurately works across most popular web browsers and mobile devices as well if all CSS grids, Toggled menu works properly, all images, icons, backgrounds are present and displayed correctly:**
 N - Fail //	Y - Pass 	
+
+
+**1.Below test is going to confirm, if developed website accurately works across most popular web browsers and mobile devices as well if all CSS grids, Toggled menu works properly, all images, icons, backgrounds are present and displayed correctly:**
+
+- Link to test [here](https://github.com/Kpokc/MS1-Car-Services-Galway/blob/master/assets/tests/visual_defect_test.xlsx)
+
+>N - Fail //	Y - Pass 	
 
 | Browser| Chrome |  IE | Opera | Firefox |
 | ------ | ------ | ------ | ------ |------ |
