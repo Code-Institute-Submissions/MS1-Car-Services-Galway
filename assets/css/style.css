@@ -938,6 +938,13 @@ h2 {
     border-radius: 3px;
 }
 
+input[type=text],
+input[type=email],
+textarea {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .contact-form input:focus, textarea:focus {
     outline: none;
 }
