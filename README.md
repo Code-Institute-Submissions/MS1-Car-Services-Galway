@@ -118,7 +118,6 @@ The website will tell short story about the garage. Provides information about m
 
 4.  Performance.
     -   Google Lighthouse - The Website [Performance](https://github.com/Kpokc/MS1-Car-Services-Galway/blob/master/assets/img/lighthouse/performance.png)
-```
 
 ## Deployment
 ---
