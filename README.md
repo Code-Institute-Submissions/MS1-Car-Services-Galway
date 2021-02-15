@@ -36,7 +36,6 @@ The website will tell short story about the garage. Provides information about m
 ### 4. Wireframe
 -	Below are the desktop, tablet and mobile wireframes. These are wireframes of landing page of five sections created with the Balsamiq Wireframes application. 
 
-Please note that they may not reflect a 100% replicated end result of my website.
 [Link to my Balsamiq Wireframes]( https://github.com/Kpokc/MS1-Car-Services-Galway/blob/master/assets/wireframes/car_service_project.pdf)
 
 ## Features
@@ -62,7 +61,7 @@ Please note that they may not reflect a 100% replicated end result of my website
 
 -	**Footer** - User can access menu.
 
-### Initial Existing Features
+### Features Left to Implement 
 -	Implement "Contact form" submission function.
 
 ## Technologies Used
@@ -72,11 +71,9 @@ Please note that they may not reflect a 100% replicated end result of my website
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 - [JavaScript](https://www.javascript.com/)
-- [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
 
 ### Frameworks, Libraries & Programs
-- [Bootstrap](https://getbootstrap.com/) - The project uses Bootstrap facilitate a responsive mobile-first design and user experience.
-- [Visual Studio 2019](https://visualstudio.microsoft.com/)
+
 - [Bootstrap](https://getbootstrap.com/) - The project uses Bootstrap facilitate a responsive mobile-first design and user experience.
 - [HTML Agility Pack](https://html-agility-pack.net/download) / / [Agility DOCS](https://html-agility-pack.net/documentation) - HAP is an HTML parser written in C# to read/write DOM and supports plain XPATH or XSLT.
 - [Balsamiq Wireframes](https://balsamiq.com/) - To create wireframes.
@@ -93,92 +90,36 @@ Please note that they may not reflect a 100% replicated end result of my website
 - [W3C](https://validator.w3.org/#validate_by_input) - HTML Validator
 - [W3C](https://validator.w3.org/#validate_by_input) - CSS Validator
 - [Closing Tag Checker](https://www.aliciaramirez.com/closing-tags-checker/) - Closing Tag Checker for HTML5
-- [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) - Mobile-friendly check.
-- [Google Lighthouse](https://web.dev/measure/?gclid=Cj0KCQiAmL-ABhDFARIsAKywVafiGIsP9vTw5JFvUE3160xtJvA3OEmyO3pu4xbHtuFtBgXB3Ws2sA4aAiVoEALw_wcB) - To see how well your website performs [OXEN Performance](https://github.com/Kpokc/MS1-Car-Services-Galway/blob/master/assets/img/lighthouse/performance.jpg). 
+- [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) - Mobile-friendly check. 
 - [Google Lighthouse](https://web.dev/measure/?gclid=Cj0KCQiAmL-ABhDFARIsAKywVafiGIsP9vTw5JFvUE3160xtJvA3OEmyO3pu4xbHtuFtBgXB3Ws2sA4aAiVoEALw_wcB) - To see how well your website performs [OXEN Performance](https://github.com/Kpokc/MS1-Car-Services-Galway/blob/master/assets/img/lighthouse/performance.png). 
 - [Online-Spellcheck](https://www.online-spellcheck.com/) Online spelling and grammar checks.
-- [HTML Agility Pack](https://html-agility-pack.net/download) / / [Agility DOCS](https://html-agility-pack.net/documentation) - HAP is an HTML parser written in C# to read/write DOM and supports plain XPATH or XSLT.
-- [Microsoft C#](https://docs.microsoft.com/en-us/dotnet/framework/network-programming/how-to-request-data-using-the-webrequest-class) - To request data from a host server.
-- [Microsoft C#](https://docs.microsoft.com/en-us/dotnet/framework/network-programming/handling-errors) - Handling Errors.
 
+1. Code & Responsivnes.
+    -   Website was test and working well in browsers (Chrome, Safari, FireFox, Opera, IE).
+    -   Responsivnes was tested on a variety of devices (Desctops, laptops and mobile phones). 
+    -   Website tested with Google Mobile-Friendly Test - website is mobile friendly.
+    -   CSS code ran through Autoprefixer and copied.
+    -   HTML Validator - code OK.
+    -   CSS Validator - code OK.
+    -   Closing Tag Checker - code OK.
 
+2.  Links.
+    -   I tested logo (top left) to ensure it reloads the webpage.
+    -   "OXEN Garage" location link (top left beside Logo) opens new tab in the browser with google map location. 
+    -   Tested each navigation link to ensure it is working correctly and navigates to correct web page section.
+    -   Social Media links (right top and in Contact Us section) were tested, each link open a new tab in the browser with correct page.
+    -   Footer navigation links - working correctly and navigates to correct web page section.
+    -   Copyright lynx (footer) - each link open a new tab in the browser with correct page.
 
-### Cross browser testing:
-> - During development process, I conducted regular testing through the use of Chrome DevTools, so most of the bugs were removed at development stage.
+3. Contact Form. ("Contact form" submission function not implemented)
+    -   Try to submit the empty form - popup error message regarding required fields.
+    -   Try to submit the form with an invalid email - popup error message that email address is incoplete.
+    -   Try to submit the form with all valid inputs - website reloads.
 
-
-**1.Below test is going to confirm, if developed website accurately works across most popular web browsers and mobile devices as well if all CSS grids, Toggled menu works properly, all images, icons, backgrounds are present and displayed correctly:**
-N - Fail //	Y - Pass 	
-
-- Link to test [here](https://github.com/Kpokc/MS1-Car-Services-Galway/blob/master/assets/tests/visual_defect_test.xlsx)
-
->N - Fail //	Y - Pass 	
-
-| Browser| Chrome |  IE | Opera | Firefox |
-| ------ | ------ | ------ | ------ |------ |
-| XX-Large (>1400px)| Y | Y | Y | Y |
-| X-Large (>1200px) | Y | Y | Y | Y |
-| Large (>992px) |  N (C3) | Y | Y | Y |
-| Medium (>768px) |  Y | Y | Y | Y |
-| Small (>576pxpx) |  Y | N (C1) | Y | Y |
-| Mobile |  Y | Y | Y | Y |
-| Tablet | Y | Y | Y | Y |
-```sh
-Bug | N (C3)| - div our-section-service max-width:1200px - text is overlaping with another section.
-Solved: our-service-section max-width 1200px - width increased to 100%
-```
-```sh
->Bug | N (C1)| - div oxon-info-on-top > max-width:618px - font-size is to big for a div size.
->Solved: oxon-info-on-top max-width:765px - font size decrised to 15px
+4.  Performance.
+    -   Google Lighthouse - The Website [Performance](https://github.com/Kpokc/MS1-Car-Services-Galway/blob/master/assets/img/lighthouse/performance.png)
 ```
 
-**2. Links testing**
-    - Logo (left top) - reloads the wabesite and brings user back to top of landing page.
-    - OXEN Garage - open new tab in browser with a link to google maps (potential location of the garage).
-    - Social media links (top right) and bottom of Contact info section - all links are working and opens a new tab in browser.
-    - Contact form - All fields works fine and are required. Submission function is not implemented yet.
-    - Footer links - all links are working and opens a new tab in browser. 
-
-**3. Below automated test done to verify if all links http request are working correctly:** 
-- **Link to my automated test is [here](https://github.com/Kpokc/MS1-Car-Services-Galway/blob/master/assets/tests/linksTest.cs).**  
-
->-**First Test**
-
-```sh
-https://kpokc.github.io/MS1-Car-Services-Galway/index.html   OK
-https://bit.ly/3okEZA6   OK
-https://www.facebook.com/   OK
-https://twitter.com/   The remote server returned an error: (400) Bad Request.
-https://www.linkedin.com/   OK
-https://kpokc.github.io/MS1-Car-Services-Galway/index.html#our-services   OK
-https://kpokc.github.io/MS1-Car-Services-Galway/index.html#about-us   OK
-https://kpokc.github.io/MS1-Car-Services-Galway/index.html#testimonials   OK
-https://kpokc.github.io/MS1-Car-Services-Galway/index.html#contact-us   OK
-https://www.flaticon.com/   OK
-https://www.vectorstock.com/royalty-free-vector/bull-logo-design-vector-27320908   OK
-https://www.vecteezy.com/free-vector/gear   OK
-https://pixabay.com/   The remote server returned an error: (403) Forbidden.
-https://www.linkedin.com/in/pavels-makarovs-50368a16a/   The remote server returned an error: (999) Request denied.
-```
-- Some bad links were fixed or removed.
->-**Second Test**
-```sh
-https://kpokc.github.io/MS1-Car-Services-Galway/index.html   OK
-https://bit.ly/3okEZA6   OK
-https://www.facebook.com/   OK
-https://twitter.com/?lang=en   The remote server returned an error: (400) Bad Request.
-https://www.linkedin.com/   OK
-https://kpokc.github.io/MS1-Car-Services-Galway/index.html#our-services   OK
-https://kpokc.github.io/MS1-Car-Services-Galway/index.html#about-us   OK
-https://kpokc.github.io/MS1-Car-Services-Galway/index.html#testimonials   OK
-https://kpokc.github.io/MS1-Car-Services-Galway/index.html#contact-us   OK
-https://www.flaticon.com/   OK
-https://www.vectorstock.com/royalty-free-vector/bull-logo-design-vector-27320908   OK
-https://www.vecteezy.com/free-vector/gear   OK
-https://www.pixabay.com/   The remote server returned an error: (403) Forbidden.
-```
-
-The Website [Performance](https://github.com/Kpokc/MS1-Car-Services-Galway/blob/master/assets/img/lighthouse/performance.png);
 ## Deployment
 ---
 Project has been deployed on GitHub Pages:
