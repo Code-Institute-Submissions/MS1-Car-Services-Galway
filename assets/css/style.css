@@ -220,7 +220,7 @@ h2 {
 /* Social media block - appears on the toggled menu (Bootstrap class) */
 .navbar .social-media-menu {
     position: absolute;
-    right: 0;
+    left: 15px;
     top: 5px;
 } 
 
